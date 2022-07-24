@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656976778975",
+    "project_id": "petras-cfce2",
+    "storage_bucket": "petras-cfce2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656976778975:android:c7b9765c4707b9fe9f3b6a",
+        "android_client_info": {
+          "package_name": "com.climbing.petras_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656976778975-im31se6ll2nut3g0lsfb4jinljqg3h4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIVazUW2tocN3Co7eG2cwXTl9mTu6hhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656976778975-im31se6ll2nut3g0lsfb4jinljqg3h4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
