@@ -13,7 +13,13 @@ class wrapper extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final user = Provider.of<Userclass>(context);
-    print(user);
+
+    if (user == null){
+      print(user);
     return authenticate();
-  }
+    }
+    else{
+      print(user);
+      return home();
+    }}
 }

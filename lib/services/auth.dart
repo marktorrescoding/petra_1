@@ -25,6 +25,8 @@ class AuthService {
       User? user1 = result.user;
       return _userFromFirebaseUser(user1!);
     } catch (e) {
+      print('bingo');
+
       print(e.toString());
       return null;
     }
@@ -34,4 +36,11 @@ class AuthService {
 //register with email/pw
 
 //sign out
+Future signOut() async {
+    try{
+      return await _auth.signOut();
+    }catch(e){
+      print(e.toString());
+    }
+}
 }
